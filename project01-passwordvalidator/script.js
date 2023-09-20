@@ -1,6 +1,8 @@
-const passwordInput = document.querySelectorAll(".password-field input")
-const eyeIcon = document.querySelectorAll(".password-field i")
+const passwordInput = document.querySelector(".password-field input");
+const eyeIcons = document.querySelectorAll(".password-field i.fa-eye");
 
-eyeIcon.addEventListener("click" ,()=>{
-    passwordInput.type = passwordInput.type === "password" ? "text" : "password"
-})
+eyeIcons.forEach((eyeIcon) => {
+    eyeIcon.addEventListener("click", () => {
+        passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+    });
+});
