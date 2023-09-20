@@ -67,6 +67,11 @@ body{
     margin-bottom: 10px;
 }
 
+.requierments li.fade i{
+    font-size: 1.6rem;
+    color: #5966df;
+}
+
 .requierments li i{
     font-size: 0.6rem;
     color: #999;
@@ -75,4 +80,8 @@ body{
 
 .requierments li i span{
     margin-left: 10px;
+}
+
+.requierments li.fade span{
+    color: #999;
 }
