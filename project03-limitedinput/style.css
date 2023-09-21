@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Shantell+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Shantell Sans', cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(184, 28, 28);
+}
+
+.wrapper{
+    background: #fff;
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.wrapper form{
+    height: 50px;
+    width: 100%;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form .att{
+    position: absolute;
+    width: 55px;
+    text-align: center;
+    font-size: 23px;
+    color: #c4c4;
+    pointer-events: none;
+}
+
+form input{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 0 50px;
+    font-size: 20px;
+    outline: none;
+}
+
+form .count{
+    position: absolute;
+    width: 55px;
+    right: 30px;
+    text-align: center;
+    font-size: 23px;
+    color: rgba(218, 128, 92, 0.966);
+    pointer-events: none;
+}
+
+
+
+
