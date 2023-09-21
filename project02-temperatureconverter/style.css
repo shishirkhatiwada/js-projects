@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Shantell+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.wrapper{
+    width : 450px;
+    background-color: rgb(128, 14, 235);
+    padding: 70px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper .input-field input{
+    max-width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: #737373;
+}
+
+.wrapper .input-field h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.wrapper .icon{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    
+}
+
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button{
+    display: none;
+}
+
